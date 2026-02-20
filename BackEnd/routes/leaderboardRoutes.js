@@ -8,8 +8,8 @@ import {
 const router = express.Router()
 
 // Leaderboard routes
+router.get("/rank/:userId", getUserRank) // Get user's rank (must be before /:userId)
+router.get("/cohort/:userId", getCohortLeaderboard) // Get cohort leaderboard (must be before /:userId)
 router.get("/", getLeaderboard) // Get global leaderboard
-router.get("/rank/:userId", getUserRank) // Get user's rank
-router.get("/cohort/:userId", getCohortLeaderboard) // Get cohort leaderboard (friends only)
 
 export default router
