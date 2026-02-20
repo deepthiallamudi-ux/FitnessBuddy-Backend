@@ -3,7 +3,7 @@
 Complete Node.js/Express REST API for the FitnessBuddy fitness social platform.
 
 **Live Deployment:** [Deploy on Render](#-deployment)
-
+https://fitnessbuddy-backend.onrender.com
 
 ## 🎯 Project Overview
 
@@ -117,8 +117,6 @@ Server runs on `http://localhost:5000`
 curl http://localhost:5000/health
 # Expected response: { "status": "ok" }
 ```
-
----
 
 ## 🔌 API Documentation
 
