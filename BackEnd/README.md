@@ -120,6 +120,8 @@ curl http://localhost:5000/health
 
 ## 🔌 API Documentation
 
+**Full API details:** See [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
+
 ### Base URL
 ```
 http://localhost:5000/api
@@ -202,9 +204,6 @@ GET    /api/gyms/nearby                 Find nearby gyms
 #### **Health Check (1 endpoint)**
 ```
 GET    /health                          Health status
-```
-
-**Full API details:** See [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
 
 ---
 
